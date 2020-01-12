@@ -1,0 +1,328 @@
+/*
+Theme Name: APPRI
+Description: Appri PSD to HTML 
+Author: Freelancer DAUD
+Author URI: https://freelancerdaud.com
+Template: Appri
+Version: 1.0.0
+*/
+
+/* css Index
+-------------------------
+1. Theme_default_css
+2. header_css
+3. slider_css
+4. about_area_css
+5. features_box_css
+6. deportment_css
+7. team_css
+8. video_area_css
+9. counter_css
+10. footer_css
+*/
+
+/* 1. Theme_default_css-start */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #888888;
+  background: #EAECED;
+}
+.container{
+  /* border: 0.1px solid red; */
+}
+.img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+.fix {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #292c34;
+  margin-top: 0px;
+  font-weight: 700;
+  text-transform: normal;
+}
+*::-moz-selection{
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+
+}
+::-moz-selection{
+    background: #444444;
+    color: #ffffff;
+    text-shadow: none;
+
+}
+::selection{
+    background: #444444;
+    color: #ffffff;
+    text-shadow: none;
+}
+*::-moz-placeholder{
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+*::placeholder{
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+
+}
+.theme-overlay{
+   position: relative;
+}
+.theme-overlay::before{
+
+    background: #1696e7 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+
+.btn{
+    -moz-user-select: none;
+    background: #7BB84F none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+/* Theme_default_css-End */
+
+/* header_css-start */
+
+.header_section{}
+.site_logo{}
+.site_logo h2{}
+.site_logo h2 a {
+  text-decoration: none;
+}
+.main_menu{}
+.main_menu ul {
+  float: right;
+  margin: 11px 0px;
+}
+.main_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.main_menu ul li a {
+  font-size: 16px;
+  color: #292C34;
+  text-decoration: none;
+  font-weight: 700;
+}
+.main_menu ul li a:hover{
+  color: rgb(255, 0, 0);
+}
+
+.Newsletter_Template_section{
+  
+}
+.Newsletter_Template{
+  background: #F9F9F9;
+}
+.Newsletter_Template h2 {
+  font-size: 34px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.Newsletter_Template p {
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 40px;
+  padding: 0px 309px;
+}
+.Newsletter_Template p span a{}
+
+.free_book a.btn{
+  background: #F5BA1C none repeat scroll 0 0;
+}
+.Our_Newsroom a.btn{
+  background: #40ACEB none repeat scroll 0 0;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.responsive {
+  padding: 6px 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Our_Gallery_section{}
+
+.Our_Gallery {
+  background: #292C34;
+  width: 100%;
+  height: 100%;
+}
+
+.our_newsroom_img{}
+.our_item_1{}
+.our_item_1 img {
+  width: 50%;
+}
+.our_item_1 p{
+    width: 50%;
+    float: right;
+    padding: 130px 100px;
+    background: #0071BD;
+    color: #fff;
+    font-size: 22px;
+    line-height: 2;
+    margin: 0;
+}
+
+.our_item_2 p{
+  width: 50%;
+  float: left;
+  padding: 130px 100px;
+  background: #A4D3F3;
+  color: #fff;
+  font-size: 22px;
+  line-height: 2;
+  margin: 0;
+}
+
+.our_item_2 img {
+  width: 50%;
+}
+
+.our_nr-btn{
+  background: #F9F9F9;
+}
+
+.Our_Gallery-title{}
+.Our_Gallery-title h2{
+  font-size: 34px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.Our_Gallery-title p{
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 40px;
+  padding: 0px 309px;
+}
+
+.our_gallery_img {
+  padding: 0px 50px;
+  margin-bottom: 590px;
+}
+.gallery_button{
+  background: #292C34;
+}
+.gallery_button a.btn{
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  color: #000;
+}
+.offer_section{
+  
+}
+.speceail_offer{
+  padding: 70px 0px;
+  background: #F9F9F9;
+}
+.speceail_offer h2{
+  font-size: 34px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.speceail_offer p{
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 40px;
+  padding: 0px 309px;
+}
+.speceail_offer a.btn{
+  background: #E02D74 none repeat scroll 0 0;
+  
+}
+
+.footer_icon{}
+.footer_icon ul{
+  float: right;
+}
+.footer_icon ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer_icon ul li a{}
+.footer_icon ul li a:hover{}
